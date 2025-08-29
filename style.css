@@ -1,0 +1,106 @@
+body { /* Seleciona a tag <body> inteira */
+    background: #b4b4b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px;
+    font-family: Arial, sans-serif;
+    }
+
+p { /* Seleciona todos os parágrafos <p> */
+    text-indent: 40px; 
+    margin-bottom: 20px;
+    line-height: 1.5;    
+    text-align: justify; 
+    }
+
+.pagina { /* Classe .pagina: representa a "folha" centralizada na página */
+    width: 800px;
+    min-height: 1120px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: 20px 0;
+    padding: 40px;
+    }
+
+#titulo { /* Seleciona o elemento com id="titulo" */
+    text-align: center;  
+    margin-bottom: 40px; 
+    }
+
+table { /* Seleciona a tag <table> inteira */
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    }
+
+th, td { /* Seleciona todas as células <th> (cabeçalho) e <td> (dados) */
+    border: 1px solid #333;
+    padding: 10px;
+    }
+
+th { /* Seleciona apenas os cabeçalhos <th> */
+    background: #ddd;
+    }
+
+#fototitulo { /* id fototitulo: estilo do texto posicionado no meio da folha */
+    float: center;
+    margin-left: 300px;  
+}
+.foto2 { /* Classe foto1: estilo da foto posicionada à direita da folha */
+    float: center;      
+    margin-left: 100px;  
+    margin-bottom: 10px;
+    margin-top: 5px;        
+    margin-right: 0px;       
+    width: 600px;
+    border-radius: 10px;  
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+
+
+h1, h2, h3, h4 { /* Seleciona todas as tags <h1> e <h2> */
+    text-align: center;
+    }
+
+h3 { /* Seleciona todas as tags <h3> */
+    margin-top: 20px;
+    }
+
+li { /* Seleciona parágrafos <p> e itens de lista <li> */
+    text-align: justify;
+    line-height: 1.6;
+    }
+
+ul { /* Seleciona todas as listas não ordenadas <ul> */
+    margin-left: 20px;
+    }
+
+.redes-sociais {
+    display: flex;
+    justify-content: center; /* centraliza na página */
+    gap: 40px;              /* espaço entre as redes */
+    margin-top: 50px;
+}
+
+.rede {
+    text-align: center; /* centraliza a imagem e o texto embaixo */
+}
+
+.rede img {
+    width: 80px;         /* tamanho da imagem (pode mudar) */
+    height: 80px;
+    border-radius: 50%;  /* deixa a imagem redonda */
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.rede img:hover {
+    transform: scale(1.1); /* efeito de zoom quando passa o mouse */
+}
+
+.rede p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
